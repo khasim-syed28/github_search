@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Profile Search</h1>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Enter username..."
+            >
+            <button id="searchBtn">
+                Search
+            </button>
+            <button id="addEmpBtn">Add Employee</button>
+        </div>
+
+        <div class="profileCard">
+          
+        </div>
+
+    </div>
+
+      <div id="formModal" class="modal hidden">
+    <div class="modal-content">
+        <h2>Add New Employee</h2>
+        <input type="text" id="newPic" placeholder="Paste Image URL...">
+        <input type="text" id="newName" placeholder="Enter Name...">
+        <input type="text" id="newBio" placeholder="Enter Bio...">
+        <div class="modal-buttons">
+            <button id="saveBtn">Save Profile</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="script.js"></script>
+
+    
+
+</body>
+</html>
